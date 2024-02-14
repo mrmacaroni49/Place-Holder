@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #e0f0ea;
+    justify-items: center;
+    text-align: center;
+}
+
+#Header {
+    color: #503a65;
+    padding-top: 20%;
+}
+
+
+.Navigation_bar {
+    background-color: 	#95adbe;
+    overflow: hidden;
+}
+
+.Navigation_bar .navigationBarElement {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.navigationBarElement:hover {
+    opacity: 40%;
+    color: #ddd;
+    color: black;
+}
+
+.Footer {
+    font-size: 13px;
+    float: left;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e2124;
+    color: white;
+}
+
+#Contacts_Rights {
+    margin: 20px;
+    float: left;
+}
+
+#Describtion {
+    margin-bottom: 52%;
+    padding: 30px;
+    color: #503a65;
+}
+
+
+img {
+    text-decoration: none;
+    margin-right: 1%;
+    padding: 5px 8px;
+    float: right;
+    width: 40px;
+  }
+
+@media only screen and (max-width: 1100px)  {
+
+    .Navigation_bar .navigationBarElement {
+        margin-left: 13px;
+        font-size: 15px;
+    }
+
+    #Describtion {
+        margin-bottom: 150%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Navigation_bar .navigationBarElement {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    #Describtion {
+        margin-bottom: 200%;
+    }
+
+    img {
+        width: 30px;
+      }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .Navigation_bar .navigationBarElement {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    #Describtion {
+        margin-bottom: 200%;
+    }
+
+    img {
+        width: 25px;
+      }
+}
